@@ -1,0 +1,22 @@
+.task-content {
+  text-decoration: none;
+  width: 100%;
+
+}
+li{
+  list-style-type:none;
+  padding: 8px;
+  border: 2px solid aqua;
+  width: 339px;
+  margin-bottom: 22px;
+  color: white;
+  word-wrap: break-word;
+}
+
+.complete-check{
+  position: relative;
+  right: 200px;
+  top: 35px;
+  cursor: pointer;
+  border-color:aqua
+}

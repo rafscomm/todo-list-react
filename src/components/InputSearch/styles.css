@@ -1,19 +1,19 @@
 .search-input{
  padding: 32px;
-
+ display: flex;
+ align-items: center;
 }
 input{
-width: 250px;
+width: 350px;
 height: 25px;
 border-color: aqua;
-
+color: white;
 }
 .styled-buttom-add{
-  width: 72px;
-  padding: 5px;
-  margin-left:15px;
+  width: 62px;
+ 
+  font-size: 18px;
   color: white;
-  border-radius: 25px;
   background-color: aqua;
 }
 
