@@ -1,6 +1,6 @@
 import './styles.css'
 import { TaskCard } from '../TaskCard/taskCard'
-export const Tasks = ({task}, handleDelete) => {
+export const Tasks = ({task,handleDelete}) => {
   return(
   <div className='tasks-container'>
    {task.map(tasks =>(

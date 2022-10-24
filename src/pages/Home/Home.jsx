@@ -9,13 +9,17 @@ import { Tasks } from '../../components/Tasks/tasks';
   let list = [...tasks]
 
   const handleDelete = (id) =>{
-   list.splice(id, 1);
-   setTask(list);
+   const newList = list.filter((item) => item.id !== id);
+   setTask(newList);
   }
 
   const handleChange = (desc) => {
-    list.push({ id: tasks.length + 1, desc: desc})
-    setTask(list);
+    if(desc !== ""){
+      list.push({ id: tasks.length + 1, desc: desc})
+      setTask(list)
+    }else {
+      alert("Não pode ser inserido uma task vazia");
+    }
   }
   console.log(tasks)
   

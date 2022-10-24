@@ -1,9 +1,9 @@
 import "./styles.css";
 
-export const DeleteButtom= (props) =>{
+export const DeleteButtom= ({onClick, id}) =>{
   return(
-   <button className="delete-buttom" onClick = {() => props.onClick(props.id)}>Delete</button>  
+   <button className="delete-buttom" onClick = {() => onClick(id)}>
+      Delete
+    </button>  
   )
-
-
 }
