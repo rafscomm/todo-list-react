@@ -6,10 +6,9 @@
 li{
   list-style-type:none;
   padding: 8px;
-  border: 2px solid aqua;
+  border-bottom: 2px solid grey;
   width: 339px;
   margin-bottom: 22px;
-  color: white;
   word-wrap: break-word;
 }
 

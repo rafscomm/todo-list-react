@@ -18,7 +18,7 @@ import { Tasks } from '../../components/Tasks/tasks';
       list.push({ id: tasks.length + 1, desc: desc})
       setTask(list)
     }else {
-      alert("Não pode ser inserido uma task vazia");
+      alert("Não pode ser inserida uma task vazia");
     }
   }
   console.log(tasks)
