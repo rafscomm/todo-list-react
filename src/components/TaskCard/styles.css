@@ -1,13 +1,14 @@
 .task-content {
   text-decoration: none;
   width: 100%;
+  
 
 }
 li{
   list-style-type:none;
   padding: 8px;
   border-bottom: 2px solid grey;
-  width: 339px;
+  width: 450px;
   margin-bottom: 22px;
   word-wrap: break-word;
 }
@@ -18,4 +19,10 @@ li{
   top: 35px;
   cursor: pointer;
   border-color:aqua
+}
+
+.div-buttom {
+  position: relative;
+  bottom: 50px;
+  left:450px;
 }

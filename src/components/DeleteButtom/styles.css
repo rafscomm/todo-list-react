@@ -1,11 +1,10 @@
 .delete-buttom {
   border: none;
-  background-color: red;
-  color: white;
-  border-radius: 14px ;
-}
-
-.delete-buttom:hover{
+  color: red;
+  background:none;
   cursor: pointer;
-
+  font-size: 24px;
 }
+
+
+
