@@ -2,7 +2,7 @@
 import { CompleteButtom } from '../CompleteButtom/completeButtom'
 import { DeleteButtom } from '../DeleteButtom/deleteButtom'
 import './styles.css'
-export const TaskCard = ({body, id, handleDelete}) => {
+export const TaskCard = ({body, id, handleDelete, handleComplete}) => {
   return(
   <div className='task-content'>
     <ul className='ul-tasks'>
@@ -11,7 +11,7 @@ export const TaskCard = ({body, id, handleDelete}) => {
           <DeleteButtom 
           onClick = {handleDelete}
           id = {id}/>
-          <CompleteButtom />
+          <CompleteButtom handleComplete ={handleComplete} id = {id}/>
         </div>
         </ul>
   </div>
