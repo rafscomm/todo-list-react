@@ -26,7 +26,7 @@ import {saveTask,getTask,getCompleteTask,removeTask} from '../../localStorage/in
 
   const handleChange = (desc) => {
     if(desc !== ""){
-      list.push({ id: tasks.length + 1, desc: desc, status:false})
+      list.push({ id: render.length + 1, desc: desc, status:false})
       saveTask(list);
       setTask(list);
     }else {
